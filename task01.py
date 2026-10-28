@@ -14,3 +14,4 @@ class Student:
 
 
 student1 = Student("Ali", "Valiyev", 19)
+student1.show_info()
