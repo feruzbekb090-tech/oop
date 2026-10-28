@@ -5,12 +5,13 @@
 
 class Phone:
     def __init__(self, brand, model, price, color):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
+        self.brand = brand
+        self.model = model
+        self.prce = price
+        self.color = color
 
     def show_info(self):
-        print("Men oquvchiman")
+        print("Men telefonman")
 
 
-student1 = Student("Ali", "Valiyev", 19)
+pph1 = Phone("Apple", "Iphone 15", 20_000, "blue")
