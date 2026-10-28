@@ -14,4 +14,5 @@ class Phone:
         print("Men telefonman")
 
 
-pph1 = Phone("Apple", "Iphone 15", 20_000, "blue")
+ph1 = Phone("Apple", "Iphone 15", 20_000, "blue")
+ph1.show_info()
